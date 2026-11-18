@@ -1,0 +1,60 @@
+Epoch 1/10: train loss=3.0053, validation loss=1.8548, validation accuracy=0.4523
+Epoch 2/10: train loss=1.1546, validation loss=0.4537, validation accuracy=0.8544
+Epoch 3/10: train loss=0.3592, validation loss=0.1517, validation accuracy=0.9523
+Epoch 4/10: train loss=0.1709, validation loss=0.0778, validation accuracy=0.9803
+Epoch 5/10: train loss=0.0995, validation loss=0.0590, validation accuracy=0.9850
+Epoch 6/10: train loss=0.0764, validation loss=0.0583, validation accuracy=0.9839
+Epoch 7/10: train loss=0.0563, validation loss=0.0524, validation accuracy=0.9861
+Epoch 8/10: train loss=0.0532, validation loss=0.0375, validation accuracy=0.9901
+Epoch 9/10: train loss=0.0401, validation loss=0.0339, validation accuracy=0.9910
+Epoch 10/10: train loss=0.0337, validation loss=0.0194, validation accuracy=0.9947
+Restored best validation checkpoint from epoch 10
+Clean test loss=0.2835, accuracy=0.9465, macro F1=0.9102
+Saved FGSM images: v2_fgsm_f00a7b5f80ea06920c4dedfb24728fbed81ccf17461c86eef10f49c6162a25d1.pt
+FGSM epsilon=0.0: accuracy=0.9465, ASR=0.0
+  jpeg_compression: accuracy=0.9177, ASR=0.03572026100050192
+  gaussian_blur: accuracy=0.9198, ASR=0.033461602810774635
+  resizing: accuracy=0.9199, ASR=0.033461602810774635
+  bit_depth_reduction: accuracy=0.9255, ASR=0.02768947632591601
+Saved PGD images: v2_pgd_ff1fec485da33662efe93921e92f3990ae19a48cbb7439d4f3b37c2d17ada3ed.pt
+PGD epsilon=0.0: accuracy=0.9465, ASR=0.0
+  jpeg_compression: accuracy=0.9177, ASR=0.03572026100050192
+  gaussian_blur: accuracy=0.9198, ASR=0.033461602810774635
+  resizing: accuracy=0.9199, ASR=0.033461602810774635
+  bit_depth_reduction: accuracy=0.9255, ASR=0.02768947632591601
+Saved FGSM images: v2_fgsm_b3379170679ed598389f7639ebedb143e70a5d0bb6b512b977e8f0ee65904ec0.pt
+FGSM epsilon=0.01: accuracy=0.5472, ASR=0.4218671574368412
+  jpeg_compression: accuracy=0.5638, ASR=0.4042998159611845
+  gaussian_blur: accuracy=0.6351, ASR=0.32909486364396856
+  resizing: accuracy=0.6294, ASR=0.33503429814288105
+  bit_depth_reduction: accuracy=0.5287, ASR=0.4414421950811444
+Saved PGD images: v2_pgd_38cb0ad9162594432b0bf312de1fd9bc541961c4260759355465fdeab464f956.pt
+PGD epsilon=0.01: accuracy=0.4063, ASR=0.5707712899447883
+  jpeg_compression: accuracy=0.4581, ASR=0.5159779153421449
+  gaussian_blur: accuracy=0.5698, ASR=0.3980257654341643
+  resizing: accuracy=0.5636, ASR=0.4047180859963192
+  bit_depth_reduction: accuracy=0.4046, ASR=0.572528024092354
+Saved FGSM images: v2_fgsm_246f4703336efdb7c2078b046d3191e65e028e12fedfa29ab040c81ef13a697a.pt
+FGSM epsilon=0.03: accuracy=0.3285, ASR=0.6529195248452401
+  jpeg_compression: accuracy=0.3542, ASR=0.6258156265685126
+  gaussian_blur: accuracy=0.3907, ASR=0.5871674753220679
+  resizing: accuracy=0.3851, ASR=0.5931069098209805
+  bit_depth_reduction: accuracy=0.3261, ASR=0.6554291450560482
+Saved PGD images: v2_pgd_07e70da89f3a8be6783cce0c5c577ef63f27aef8a638958c505673517a1c378f.pt
+PGD epsilon=0.03: accuracy=0.1188, ASR=0.8745189894595952
+  jpeg_compression: accuracy=0.1633, ASR=0.8274217835034298
+  gaussian_blur: accuracy=0.2372, ASR=0.749372594947298
+  resizing: accuracy=0.2291, ASR=0.7579053036640455
+  bit_depth_reduction: accuracy=0.1229, ASR=0.8701689810941944
+Saved FGSM images: v2_fgsm_fbb6b7000312af509c8ad64326f695dfb4d9b5166aa1cd622182337e6d86dcd0.pt
+FGSM epsilon=0.06: accuracy=0.2260, ASR=0.7611678099380961
+  jpeg_compression: accuracy=0.2515, ASR=0.7343985276894763
+  gaussian_blur: accuracy=0.2714, ASR=0.7132340639116613
+  resizing: accuracy=0.2680, ASR=0.7168311862138197
+  bit_depth_reduction: accuracy=0.2297, ASR=0.7573197256148569
+Saved PGD images: v2_pgd_48865fbdd7513c3eaa149457cc449df62e5d334ea571cf67147d776deb054419.pt
+PGD epsilon=0.06: accuracy=0.0595, ASR=0.9371758407227706
+  jpeg_compression: accuracy=0.0743, ASR=0.9214488874017065
+  gaussian_blur: accuracy=0.1051, ASR=0.8889074786682282
+  resizing: accuracy=0.1013, ASR=0.8930065250125481
+  bit_depth_reduction: accuracy=0.0606, ASR=0.9359210306173665
